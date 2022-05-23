@@ -65,7 +65,7 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
 
 ## Final Outputs:
 
-![ResNet18](/assets/output.png)
+![output](/assets/output.png)
 
 ## Accuracies Recorded: 🎓
 
