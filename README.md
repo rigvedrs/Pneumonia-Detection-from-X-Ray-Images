@@ -68,14 +68,28 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
 ![output](/assets/output.png)
 
 ## Accuracies Recorded: 🎓
-
-- ResNet9:
-  - Training 56%
-  - Testing 51%
-- Custom CNN:
-  - Training 97%
-  - Testing 84%
-- ResNet18:
-  - Training 96%
-  - Testing 91%
-  - After ensembling 94%
+<h4>
+<ul>
+  <li>ResNet9:
+    <ul>
+      <li>Training 56%</li>
+      <li>Testing 51%</li>
+    </ul>
+  </li>
+  </ul>
+  <ul>
+  <li>Custom CNN:
+    <ul>
+      <li>Training 97%</li>
+      <li>Testing 84%</li>
+    </ul>
+  </li>
+  <li>ResNet18:
+    <ul>
+      <li>Training 96%</li>
+      <li>Testing 91%</li>
+      <li>After ensembling 94%</li>
+    </ul>
+  </li>
+</ul>
+</h4>
