@@ -33,21 +33,5 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
 
 ## Losses and accuracies recorded
 
-- ResNet9 model:
 
-
-
-
-- Custom CNN model:
-
-![DeepL Loss](/assets/custom32_loss.PNG)
-![DeepL Acc](/assets/custom32_acc.PNG)
-
-
-- ResNet18 model:
-
-![ResNet18 Loss](/assets/resnet18_loss.PNG)
-![ResNet18 Acc](/assets/resnet18_acc.PNG)
-
-### We can clearly see the accuracy improvised and the noise reduced as we went using better models
 
