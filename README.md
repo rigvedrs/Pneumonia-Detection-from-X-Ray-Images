@@ -8,19 +8,19 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
 - The dataset has been taken from Kaggle [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) dataset which consists of Chest X-ray images (anterior-posterior) selected from retrospective cohorts of pediatric patients of one to five years old from Guangzhou Women and Children’s Medical Center, Guangzhou. 
 - The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal)
 
-## Pneumonia Images (grayscaled)
+## Pneumonia Images (grayscaled) 🔬
 
 
 ![pneumonia images](/assets/pneumonia.PNG)
 
 
-## Normal Images (grayscaled)
+## Normal Images (grayscaled) 🔬
 
 
 ![Normal images](/assets/normal.png)
 
 
-## Pneumonia vs Normal Images
+## Pneumonia vs Normal Images 📊
 
 ![Pneumonia vs Normal](/assets/pneumoniavsnormal.png)
 
@@ -48,7 +48,7 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
 - K Fold Cross Validation
 - Ensembling, by dividing the training data into 5 folds and training 5 ResNet18 models seperately with the seperate folds of data and using the average of their outputs as the final prediction.
 
-## Losses and accuracies recorded
+## Losses and accuracies recorded 📈
 
 ### ResNet9:
 
@@ -67,7 +67,7 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
 
 ![ResNet18](/assets/output.png)
 
-## Accuracies Recorded:
+## Accuracies Recorded: 🎓
 
 - ResNet9:
   - Training 56%
