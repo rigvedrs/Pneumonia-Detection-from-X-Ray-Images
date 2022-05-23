@@ -8,6 +8,20 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
 - The dataset has been taken from Kaggle [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) dataset which consists of Chest X-ray images (anterior-posterior) selected from retrospective cohorts of pediatric patients of one to five years old from Guangzhou Women and Children’s Medical Center, Guangzhou. 
 - The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal)
 
+## Pneumonia Images (grayscaled)
+
+
+![pneumonia images](/assets/pneumonia.png)
+
+
+## Normal Images (grayscaled)
+
+
+![Normal images](/assets/normal.png)
+
+
+## Pneumonia vs Normal Images
+
 ## Notebook 📙
 
 - There are 3 notebooks, each containing different models
@@ -20,6 +34,7 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
 - Basic Data preprocessing involving:
   -  Understanding data 
   -  Transforming data 
+     - Applying Random Rotations  
      - Normalizing RGB values
      - Resizing
 - Models used:
@@ -33,5 +48,5 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
 
 ## Losses and accuracies recorded
 
-
+## Final Outputs:
 
