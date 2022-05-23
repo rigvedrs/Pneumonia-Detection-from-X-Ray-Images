@@ -11,7 +11,7 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
 ## Pneumonia Images (grayscaled)
 
 
-![pneumonia images](/assets/pneumonia.png)
+![pneumonia images](/assets/pneumonia.PNG)
 
 
 ## Normal Images (grayscaled)
@@ -22,6 +22,8 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
 
 ## Pneumonia vs Normal Images
 
+![Pneumonia vs Normal](/assets/pneumoniavsnormal.png)
+
 ## Notebook 📙
 
 - There are 3 notebooks, each containing different models
@@ -29,7 +31,7 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
   - [pneumonia-prediction-deepL.ipynb](https://github.com/rigvedrs/Pneumonia-Detection-from-X-Ray-Images/blob/main/pneumonia-prediction-deepL.ipynb)
   - [pneumonia-prediction-resnet18.ipynb](https://github.com/rigvedrs/Pneumonia-Detection-from-X-Ray-Images/blob/main/pneumonia-resnet18.ipynb)
 
-## Ideas Implemented 💭
+## Ideas and Techniques Implemented 💭
 
 - Basic Data preprocessing involving:
   -  Understanding data 
@@ -48,5 +50,21 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
 
 ## Losses and accuracies recorded
 
+### ResNet9:
+
+![ResNet9](/assets/ResNet9.png)
+
+### Custom CNN model:
+
+![Custom](/assets/custom.png)
+
+### ResNet18:
+
+![ResNet18](/assets/ResNet18.png)
+
+
+
 ## Final Outputs:
+
+
 
