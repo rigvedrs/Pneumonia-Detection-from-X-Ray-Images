@@ -15,6 +15,39 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
   - [pneumonia-prediction-deepL.ipynb](https://github.com/rigvedrs/Pneumonia-Detection-from-X-Ray-Images/blob/main/pneumonia-prediction-deepL.ipynb)
   - [pneumonia-prediction-resnet18.ipynb](https://github.com/rigvedrs/Pneumonia-Detection-from-X-Ray-Images/blob/main/pneumonia-resnet18.ipynb)
 
-## Ideas 💭
+## Ideas Implemented 💭
 
+- Basic Data preprocessing involving:
+  -  Understanding data 
+  -  Transforming data 
+     - Normalizing RGB values
+     - Resizing
+- Models used:
+  - ResNet9
+  - ResNet18
+  - Other custom CNN models
+- Weight decay
+- Automatized Hyperparameter search using optuna
+- K Fold Cross Validation
+- Ensembling, by dividing the training data into 5 folds and training 5 ResNet18 models seperately with the seperate folds of data and using the average of their outputs as the final prediction.
+
+## Losses and accuracies recorded
+
+- ResNet9 model:
+
+
+
+
+- Custom CNN model:
+
+![DeepL Loss](/assets/custom32_loss.PNG)
+![DeepL Acc](/assets/custom32_acc.PNG)
+
+
+- ResNet18 model:
+
+![ResNet18 Loss](/assets/resnet18_loss.PNG)
+![ResNet18 Acc](/assets/resnet18_acc.PNG)
+
+### We can clearly see the accuracy improvised and the noise reduced as we went using better models
 
