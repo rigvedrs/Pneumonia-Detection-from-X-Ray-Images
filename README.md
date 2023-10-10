@@ -87,7 +87,7 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
   <li>ResNet18:
     <ul>
       <li>Training 96%</li>
-      <li>Testing 95%</li>
+      <li>Testing 91%</li>
       <li>After ensembling 94%</li>
     </ul>
   </li>
