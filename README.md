@@ -27,9 +27,9 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
 ## Notebook 📙
 
 - There are 3 notebooks, each containing different models
-  - [pneumonia-prediction-ResNet9.ipynb](https://github.com/rigvedrs/Pneumonia-Detection-from-X-Ray-Images/blob/main/pneumonia-x-ray-ResNet9.ipynb)
-  - [pneumonia-prediction-deepL.ipynb](https://github.com/rigvedrs/Pneumonia-Detection-from-X-Ray-Images/blob/main/pneumonia-prediction-deepL.ipynb)
-  - [pneumonia-prediction-resnet18.ipynb](https://github.com/rigvedrs/Pneumonia-Detection-from-X-Ray-Images/blob/main/pneumonia-resnet18.ipynb)
+  - [pneumonia-prediction-ResNet9.ipynb](https://github.com/rigvedrs/Pneumonia-Detection-from-X-Ray-Images/blob/917e8f2691dfe7212ddf21ec2f70a4ab353543c2/pneumonia-prediction-ResNet9.ipynb)
+  - [pneumonia-prediction-deepL.ipynb](https://github.com/rigvedrs/Pneumonia-Detection-from-X-Ray-Images/blob/917e8f2691dfe7212ddf21ec2f70a4ab353543c2/pneumonia-prediction-deepL.ipynb)
+  - [pneumonia-prediction-resnet18.ipynb](https://github.com/rigvedrs/Pneumonia-Detection-from-X-Ray-Images/blob/917e8f2691dfe7212ddf21ec2f70a4ab353543c2/pneumonia-prediction-resnet18.ipynb)
 
 ## Ideas and Techniques Implemented 💭
 
@@ -87,7 +87,7 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
   <li>ResNet18:
     <ul>
       <li>Training 96%</li>
-      <li>Testing 91%</li>
+      <li>Testing 95%</li>
       <li>After ensembling 94%</li>
     </ul>
   </li>
