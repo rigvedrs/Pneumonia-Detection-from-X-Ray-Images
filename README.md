@@ -11,7 +11,7 @@ The architectures used are ResNet9, ResNet18 and other custom CNN models. The fi
 ## Pneumonia Images (grayscaled) 🔬
 
 
-![pneumonia images](/assets/pneumonia.PNG)
+![pneumonia images](/assets/pneumonia.png)
 
 
 ## Normal Images (grayscaled) 🔬
